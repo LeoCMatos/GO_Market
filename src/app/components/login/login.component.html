@@ -1,0 +1,33 @@
+
+
+<div class="container">
+    <form >
+        <div class="container-form">
+            <div class="tamanho-imagem">
+                <img src="../../../assets/logo-go-market.jpeg" alt="imagem">
+            </div>
+            <h2>Entrar</h2> 
+            <p class="erroautenticacao">{{errorEmail}}</p>
+            <div class="label">
+                <label for="">
+                    <span class="material-symbols-outlined">
+                        alternate_email
+                    </span></label>
+                <input type="email" name="email" id="email" [(ngModel)]="email" placeholder="email@dominio.com">
+            </div>
+            <div  class="label">
+                <label> 
+                    <span class="material-symbols-outlined">
+                        lock
+                    </span></label>
+                <input type="password" #myInput name="senha" id="senha" [(ngModel)]="senha" placeholder="********">
+                <span class="material-symbols-outlined" #spanVision (click)="togglePasswordVisibility(myInput)">
+                    {{ visibility }}
+                </span>
+            </div>
+            <a href="#"><p class="esqueciSenha">Esqueci a senha</p></a>
+            <button (click)="fazerLogin()">Entrar</button>
+            <p class="cadastro">Não tem cadastro? <a href="#">Criar conta grátis</a></p>
+        </div>
+    </form>
+</div>

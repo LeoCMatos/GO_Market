@@ -1,0 +1,101 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-form{
+    width: 70%;
+}
+
+form{
+    height: 60%;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    color: var(--cor-h2);
+    font-size: 2em;
+    padding: 20px 0px 0px 0px;
+}
+
+.erroautenticacao{
+    color: red;
+}
+
+.label{
+    background-color: var(--cor-fundo-placeholder);
+    display: flex;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: var(--borda-input-login);
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    background-color: var(--cor-fundo-placeholder);
+    height: 100%;
+    color: #949494;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+input{
+    background-color: var(--cor-fundo-placeholder);
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-left: 10px;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(185, 185, 185);
+    width: 100%;
+}
+
+p{
+    margin-top: 15px;
+    width: 100%;
+    font-size: 1em;
+}
+
+.esqueciSenha{
+    text-align: end;
+    font-weight: bolder;
+    color: #448ADA;
+}
+
+button{
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: var(--cor-botao);
+    color: white;
+    border-radius: var(--borda-input-login);
+}
+
+button:hover{
+    background-color: var(--cor-botao-hover);
+    cursor: pointer;
+}
+
+.cadastro{
+    text-align: center;
+}
+
+.cadastro > a{
+    color: #448ADA;
+}
+

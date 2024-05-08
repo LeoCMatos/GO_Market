@@ -11,6 +11,8 @@
     -ms-user-select: none; 
     user-select: none;
 
+    list-style-type: none;
+
 }
 
 :root {
@@ -20,6 +22,8 @@
     --cor-botao-hover: #1556a0;
 
     --borda-input-login: 7px;
+
+    --cor-fundo: #DFE7EA;
 }
 
 .container{

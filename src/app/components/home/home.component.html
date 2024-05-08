@@ -1,1 +1,19 @@
-<p>home works!</p>
+<div class="container-home">
+
+        <div class="menu">
+            <app-menu></app-menu>
+        </div>
+        <div class="container-conteudo">
+            <div class="container-header">
+                <div class="header-conteudo">
+                    <p id="nome" >{{ name }}</p>
+                </div>
+                <div class="container-image">
+                    <img class="foto-perfil" src="https://cdn-icons-png.flaticon.com/512/4792/4792929.png" alt="">
+                </div>
+            </div> 
+            <div>
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+</div>

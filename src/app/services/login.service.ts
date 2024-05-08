@@ -14,7 +14,7 @@ export class AuthService {
   login(email: string, senha: string) {
     return this.http.post<any>(`${this.apiUrl}/usuarios/login`, { email: email, senha: senha }).pipe(
       map(response => {
-        return response;
+        return response.usuario.usu_nome; 
       })
     );
   }

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { AuthService } from '../../services/login/login.service.spec';
+import { AuthService } from '../../services/login.service';
 import { Router } from '@angular/router';
+import { GlobalService } from '../../services/global';
 
 
 @Component({
@@ -10,18 +11,13 @@ import { Router } from '@angular/router';
 })
 
 export class LoginComponent {
-
+  constructor(private authService: AuthService, private router: Router, private globalService: GlobalService) { }
 
   visibility: string = 'visibility_off';
 
   senha!: string;
   email!: string;
   errorEmail: string = '';
-
-
-
-  constructor(private authService: AuthService, private router: Router) { }
-
 
   togglePasswordVisibility(input: HTMLInputElement): void{
     if (input.type === 'text') {
@@ -38,13 +34,11 @@ export class LoginComponent {
     this.authService.login(this.email, this.senha).subscribe(
   
       (response) => {
-        console.log(response); // Aqui você pode lidar com a resposta da sua API Node.js
-        console.log("logou");
-        this.router.navigate(['/home']);
+        this.globalService.setGlobalName(response);
+        this.router.navigate(['/home/dashboard']);
+        
       },
       (error) => {
-        console.error(error); // Aqui você pode lidar com erros, como exibir uma mensagem de erro para o usuário
-        console.log("não logou");
         console.log(this.email, this.senha);
         this.errorEmail = 'E-mail ou senha inválido!';
       }

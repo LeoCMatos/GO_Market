@@ -1,0 +1,29 @@
+{
+    "lojas_mais_vendem": [
+      {
+        "posicao": 1,
+        "nome_loja": "A",
+        "valor_vendas": 5000
+      },
+      {
+        "posicao": 2,
+        "nome_loja": "B",
+        "valor_vendas": 4800
+      },
+      {
+        "posicao": 3,
+        "nome_loja": "C",
+        "valor_vendas": 4500
+      },
+      {
+        "posicao": 4,
+        "nome_loja": "D",
+        "valor_vendas": 4200
+      },
+      {
+        "posicao": 5,
+        "nome_loja": "E",
+        "valor_vendas": 4000
+      }
+    ]
+  }

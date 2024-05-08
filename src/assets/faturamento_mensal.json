@@ -1,0 +1,16 @@
+{
+  "faturamento_mensal_bruto": [
+    { "id": 1, "mes": "Janeiro", "ano": 2024, "valor_faturamento": 150000 },
+    { "id": 2, "mes": "Fevereiro", "ano": 2024, "valor_faturamento": 165000 },
+    { "id": 3, "mes": "Março", "ano": 2024, "valor_faturamento": 180000 },
+    { "id": 4, "mes": "Abril", "ano": 2024, "valor_faturamento": 170000 },
+    { "id": 5, "mes": "Maio", "ano": 2024, "valor_faturamento":  185000 },
+    { "id": 6, "mes": "Junho", "ano": 2024, "valor_faturamento":  195000 },
+    { "id": 7, "mes": "Julho", "ano": 2024, "valor_faturamento": 200000 },
+    { "id": 8, "mes": "Agosto", "ano": 2024, "valor_faturamento":  210000 },
+    { "id": 9, "mes": "Setembro", "ano": 2024, "valor_faturamento":  220000 },
+    { "id": 10, "mes": "Outubro", "ano": 2024, "valor_faturamento":  225000 },
+    { "id": 11, "mes": "Novembro", "ano": 2024, "valor_faturamento":  230000 },
+    { "id": 12, "mes": "Dezembro", "ano": 2024, "valor_faturamento":  240000 }
+  ]
+}

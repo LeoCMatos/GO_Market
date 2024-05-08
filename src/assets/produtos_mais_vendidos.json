@@ -1,0 +1,19 @@
+{
+    "produtos_mais_vendidos": [
+      {
+        "posicao": 1,
+        "produto": "Sorvete Kibon",
+        "valor_vendas": 5912
+      },
+      {
+        "posicao": 2,
+        "produto": "Contra filé",
+        "valor_vendas": 5123
+      },
+      {
+        "posicao": 3,
+        "produto": "Bolacha",
+        "valor_vendas": 3130
+      }
+    ]
+  }

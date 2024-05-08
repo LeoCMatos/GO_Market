@@ -1,0 +1,17 @@
+{
+    "lucro_liquido": [
+      {"mes": "Janeiro", "ano": 2024, "lucro_liquido": 75000},
+      {"mes": "Fevereiro", "ano": 2024, "lucro_liquido": 82500},
+      {"mes": "Março", "ano": 2024, "lucro_liquido": 90000},
+      {"mes": "Abril", "ano": 2024, "lucro_liquido": 95000},
+      {"mes": "Maio", "ano": 2024, "lucro_liquido": 98000},
+      {"mes": "Junho","ano": 2024, "lucro_liquido": 102000},
+      {"mes": "Julho", "ano": 2024, "lucro_liquido": 105000},
+      {"mes": "Agosto", "ano": 2024, "lucro_liquido": 107500},
+      {"mes": "Setembro", "ano": 2024, "lucro_liquido": 110000},
+      {"mes": "Outubro", "ano": 2024, "lucro_liquido": 115000},
+      {"mes": "Novembro", "ano": 2024, "lucro_liquido": 120000},
+      {"mes": "Dezembro", "ano": 2024, "lucro_liquido": 125000}
+    ]
+  }
+  

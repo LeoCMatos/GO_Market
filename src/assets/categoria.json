@@ -1,0 +1,28 @@
+{
+  "categoria_mais_vendida": [
+    {
+      "mes": "Janeiro",
+      "categorias": [
+        {"categoria": "Sorvetes", "valor": 12200},
+        {"categoria": "Bebidas", "valor": 8500},
+        {"categoria": "Carnes", "valor": 7400}
+      ]
+    },
+    {
+      "mes": "Fevereiro",
+      "categorias": [
+        {"categoria": "Carnes", "valor": 10200},
+        {"categoria": "Sorvetes", "valor": 9300},
+        {"categoria": "Bebidas", "valor": 7800}
+      ]
+    },
+    {
+      "mes": "Março",
+      "categorias": [
+        {"categoria": "Bebidas", "valor": 3200},
+        {"categoria": "Carnes", "valor": 2600},
+        {"categoria": "Sorvetes", "valor": 2100}
+      ]
+    }
+  ]
+}

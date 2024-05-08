@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 7%;
+}
+
+.container-moldura{
+    margin: 20px;
+    width: 532px;
+    height: 400px;
+    background-color: transparent;
+    border: 1px solid rgba(180, 180, 180, 0.295);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 30px 9px 19px rgba(180, 180, 180, 0.295);
+}
+
+.title{
+    height: 50px;
+    padding: 17px 10px;
+    width: 100%;
+    border-bottom: 1px solid rgba(180, 180, 180, 0.295);
+    text-justify: center;
+    color: #2051d8;
+}
+
+.grafico{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.grafico-linha{
+    width: 800px;
+}
